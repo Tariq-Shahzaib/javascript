@@ -31,3 +31,5 @@ const newAddress = `${streetname}, ${streetnum}
  ${workExperience1}
  
  ${workExperience2}`
+    console.log(cv);
+ 
