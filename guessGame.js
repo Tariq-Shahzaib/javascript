@@ -1,15 +1,18 @@
+do 
+{
+var userNumber = prompt('Enter the number that you have guessed')
+var systemNumber = (Math.floor(Math.random() * 10+1))
 
-let userNumber = prompt('Enter the number that you have guessed')
-let systemNumber = (Math.floor(Math.random() * 10))
-console.log (userNumber,systemNumber);
 
 
 if(userNumber==systemNumber)
 {
     
-    console.log('You Guesses Number '+userNumber+' is Correct')
+    alert('You Guessed Number '+userNumber+' is Correct')
 }
 else
 {
-console.log('The Number you guessed  is Wrong. Correct Number is: '+systemNumber)
-} 
+alert('The Number you guessed '+ userNumber+' is Wrong. Correct Number is: '+systemNumber)
+}
+}
+while (userNumber!=systemNumber)
