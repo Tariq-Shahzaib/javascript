@@ -1,18 +1,16 @@
 
-for (let num = 2; num <= 10; num++) {
-for (let divisor = 2; divisor < num; divisor++) {
+const ROWS=5;
+const COLUMNS=5;
+
+let star ='*';
+   
+    for(let i=0; i<ROWS; i++)  {
+        let line='';
+    for(let j=0; j<CO; j++)    {
+        
+        
+        line+=star
+    }
+    console.log(line)
     
-        if(num%divisor==0) {
-            isPrime = false;
-            break;
-        }
-        if (num % divisor === 0)    {
-            console.log(num+' is not a Prime Number');
-        }
-        else {
-             console.log(num+' is a Prime Number');
-
-}
-
-}
 }
