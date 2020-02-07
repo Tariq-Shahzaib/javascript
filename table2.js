@@ -9,11 +9,21 @@ for (let multiplier=1; multiplier<=10; multiplier++ ) {
 
 result= multiplier*number;
 
-if(result.toString().length < 2)
+if(result.toString().length < 2 )
 {
+     
+     
    result= " "+result;
    
 }
+if(result.toString().length < 3 )
+{
+     
+     
+   result= " "+result;
+   
+}
+
 
 line+=result+'    '
 
@@ -30,3 +40,5 @@ if(multiplier==10)  {
 console.log('\n')
 console.log(line)
 }
+
+

@@ -1,6 +1,6 @@
 const ROWS=10;
 const COLUMNS=10;
-let num;
+let num;ù
 
 let star ='*';
 for(let i=0; i<ROWS; i++)  {
