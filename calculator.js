@@ -56,7 +56,7 @@ sn=Number(sn);
         }
         else 
         {
-            console.log ('You must have to enter number')
+            console.log ('You must have to enter number');
         }
         
         
