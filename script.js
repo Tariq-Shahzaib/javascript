@@ -56,10 +56,10 @@ var username = prompt("Enter you name in capital letters");
 var password = prompt("Enter your Password");
 if(username !=null && password !=null)
 {
-    console.log('New User Added to system succesfully.')
+    console.log('New User Added to system succesfully.');
 }
 else {
-    console.log('These Feilds cannot be empty')
+    console.log('These Feilds cannot be empty');
 }
 }
 }
