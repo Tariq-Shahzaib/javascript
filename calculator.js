@@ -1,8 +1,8 @@
 var button = document.getElementById("calculate")
-console.log("Basic Calculator");
 button.onclick=
-function calculate()
-{
+
+
+function calculate() {
     console.log('click work')
     var fn = document.getElementById("num1").value;
     var op = document.getElementById("option").value;
