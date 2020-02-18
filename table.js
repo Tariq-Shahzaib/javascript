@@ -1,4 +1,4 @@
-let number;
+
 let result;
 for (let number=1; number<=10; number++ )
 {
@@ -12,6 +12,6 @@ result = multiplier*number;
 console.log(multiplier +'  *  ' +number+' = '+result)
 
 }
-console.log('\n****************')
+console.log('****************')
 console.log('****************')
 }
